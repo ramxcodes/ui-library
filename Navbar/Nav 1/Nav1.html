@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nav 1</title>
+</head>
+<style>
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: bisque;
+    }
+    .left{
+        padding-left: 40px;
+        font-size: 2rem;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .right{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 20px;
+    }
+    li{
+        list-style-type: none;
+        padding: 30px;
+    }
+    li a{
+        text-decoration: none;
+        font-size: 1.6rem;
+    }
+    button{
+        padding: 10px 20px;
+        background-color: blue;
+        color: white;
+        border: none;
+        border-radius: 5px;
+    }
+</style>
+<body>
+    <nav>
+        <div class="left">Logo</div>
+        <div class="right">
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Service</a></li>
+            <Button>Login</Button>
+        </div>
+    </nav>
+</body>
+</html>
